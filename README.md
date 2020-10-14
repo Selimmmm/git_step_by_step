@@ -130,7 +130,7 @@
 
 
 
-## Merge la nouvelle branche (`new_branch`) dans la première créée (`master`)
+## Merge `new_branch` dans `master`
 
 - On veut fusionner les dernières modifications sur new_branch avec la branche master :
 
