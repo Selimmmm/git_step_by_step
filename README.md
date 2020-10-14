@@ -142,3 +142,8 @@
 	git merge new_branch # ajouter les commit fait dans new_branch dans master
 	git push # pousser les modifications sur le repository distant
 	```
+
+
+## Pour mieux comprendre
+
+![Screenshot](images/nice_info.png)
