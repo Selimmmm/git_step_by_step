@@ -3,11 +3,11 @@
 
 ## Créer un repository distant (remote) sur GitHub
 
-- Après s'être inscrit sur Github ([Lien](https://github.com/join?source=login)), se connecter et se rendre sur [la page pour créer un nouveau repository](https://github.com/new)
+- Après s'être inscrit sur Github ([Lien](https://github.com/join?source=login)), se connecter et se rendre sur [la page pour créer un nouveau repository](https://github.com/new). Vous pouvez l'appeler `git_step_by_step`
 
 ![Screenshot](images/create_repo_github.png)
 
-- On arrive sur cette page
+- On arrive sur cette page :
 
 ![Screenshot](images/repo_created.png)
 
@@ -29,7 +29,7 @@
 
 ## Faire un premier commit en local
 
-- Créer un fichier texte "file_1.txt", par exemple en tapant :
+- Créer un fichier texte `file_1.txt`, par exemple en tapant :
 
 	```bash
 	touch file_1.txt
@@ -37,7 +37,7 @@
 	```
 
 
-- Vérifier ce qu'on a modifié
+- Vérifier ce qu'on a modifié :
 
 	```bash
 	git status # vérifier ce qu'on a modifié
@@ -59,14 +59,15 @@
 
 ## Pousser sur le repository remote pour la première fois
 
-- Ajouter l'URL de la branche en remote (origin)
+- Ajouter l'URL de la branche en remote (`origin`)
 
 	```bash
 	git remote add origin https://github.com/Selimmmm/git_step_by_step.git
+	# https://github.com/username/name_of_repository.git dans votre cas
 	```
 
 
-- "Brancher" notre branche master (en local) sur la branche origin (en remote)
+- "Brancher" notre branche `master` (en local) sur la branche `origin` (en remote)
 
 
 	```bash
@@ -80,7 +81,7 @@
 
 ## Routine status / add / commit / push
 
-- Ajouter une ligne dans file_1.txt et y écrire quelque chose, et créer et écrire dans file_2.txt
+- Ajouter une ligne dans `file_1.txt` et y écrire quelque chose, et créer et écrire dans `file_2.txt`
 
 	```bash
 	open file_1.txt # le fichier va s'ouvrir, écrire quelque chose et enregistrer
@@ -109,7 +110,7 @@
 	```
 
 
-- En étant dans la branche new_branch, créer un nouveau fichier file_new_branch.txt, écrire dedans et enregistrer 
+- En étant dans la branche new_branch, créer un nouveau fichier `file_new_branch.txt`, écrire dedans et enregistrer :
 
 	```bash
 	touch file_new_branch.txt
@@ -119,7 +120,7 @@
 	```
 
 
-- Vérifier les modifications, ajouter et "commit"
+- Vérifier les modifications, ajouter et "commit" :
 
 	```bash
 		git status # on vérifier les modifications
@@ -130,7 +131,7 @@
 
 
 
-## Merge la nouvelle branche (new_branch) dans la première créée (master)
+## Merge la nouvelle branche (`new_branch`) dans la première créée (`master`)
 
 - On veut fusionner les dernières modifications sur new_branch avec la branche master :
 
