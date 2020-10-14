@@ -126,7 +126,6 @@
 	git status # on vérifier les modifications
 	git add file_new_branch.txt 
 	git commit -m "3rd commit - Commit on new branch - file_new_branch.txt created"
-	git push
 	```
 
 
