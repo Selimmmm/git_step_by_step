@@ -67,7 +67,7 @@
 	```
 
 
-- "Brancher" notre branche `master` (en local) sur la branche `origin` (en remote)
+- "Brancher" notre branche `master` (en local) sur la branche `origin` (en remote) et pousser
 
 
 	```bash
@@ -123,10 +123,10 @@
 - Vérifier les modifications, ajouter et "commit" :
 
 	```bash
-		git status # on vérifier les modifications
-		git add file_new_branch.txt 
-		git commit -m "3rd commit - Commit on new branch - file_new_branch.txt created"
-		git push
+	git status # on vérifier les modifications
+	git add file_new_branch.txt 
+	git commit -m "3rd commit - Commit on new branch - file_new_branch.txt created"
+	git push
 	```
 
 
@@ -136,9 +136,9 @@
 - On veut fusionner les dernières modifications sur new_branch avec la branche master :
 
 	```bash
-		git log # regarder les commits présents sur new_branch
-		git checkout master # retourner sur master
-		git log # regarder les commits présents sur master (il n'y a pas le dernier qui est sur new_branch)
-		git merge new_branch # ajouter les commit fait dans new_branch dans master
-		git push # pousser les modifications sur le repository distant
+	git log # regarder les commits présents sur new_branch
+	git checkout master # retourner sur master
+	git log # regarder les commits présents sur master (il n'y a pas le dernier qui est sur new_branch)
+	git merge new_branch # ajouter les commit fait dans new_branch dans master
+	git push # pousser les modifications sur le repository distant
 	```
