@@ -124,7 +124,7 @@
 	```bash
 		git status # on vérifier les modifications
 		git add file_new_branch.txt 
-		git commit -m "Commit on new branch - file_new_branch.txt created"
+		git commit -m "3rd commit - Commit on new branch - file_new_branch.txt created"
 		git push
 	```
 
@@ -132,7 +132,7 @@
 
 ## Merge la nouvelle branche (new_branch) dans la première créée (master)
 
-- On veut fusionner ce dernier commit fait sur new_branch avec la branche master, on doit retourner sur master : 
+- On veut fusionner les dernières modifications sur new_branch avec la branche master :
 
 	```bash
 		git checkout master # retourner sur master
