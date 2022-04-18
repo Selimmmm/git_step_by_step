@@ -23,7 +23,7 @@
 - Initialiser le repository local : 
 
 	```bash
-	cd git init
+	git init
 	```
 
 
